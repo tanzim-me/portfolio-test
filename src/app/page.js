@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import profile from "../../public/profile.jpg"
 
 // app/page.js
 export default function Home() {
@@ -21,7 +20,7 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center min-h-[70vh] px-6 text-center">
         <div className="w-[400px] h-[400px] rounded-[400px] bg-amber-50 mt-13 overflow-hidden">
           <Image 
-            src={profile}
+            src="/profile.jpg"
             alt="profile picture"
             width={400}
             height={400}
